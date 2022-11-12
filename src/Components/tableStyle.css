@@ -1,0 +1,79 @@
+.card_style{
+    padding:10px;
+    background-color:white;
+    border-radius:20px;
+    border:1px solid #ede8e8;
+    cursor:text
+}
+.tableResponsive{
+    width:'100%';
+    /* border:1px solid #d6d3d3; */
+    background-color: white;
+    /* border-radius: 10px; */
+}
+.designView{
+    font-size: 10px;
+
+}
+.itemPadding{
+    margin-bottom: 20px;
+}
+.date-picker input {
+    width: 100%;
+    padding:7px;
+    margin-top: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+
+}
+.date-picker input:focus {
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .tableResponsive{
+        width:300px;
+        overflow-x:auto
+    }
+}
+.iconStyleCard{
+    background: #ffc0c0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size:30px;
+    vertical-align: middle; 
+    padding: 20px;
+}
+.iconStyleCard1{
+    background: #ffc400;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size:30px;
+    vertical-align: middle; 
+    padding: 20px;
+}.iconStyleCard2{
+    background: rgb(41, 98, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size:30px;
+    vertical-align: middle; 
+    padding: 20px;
+}
+.TextHead{
+    font-weight: bolder;
+    padding: 10px;
+}
+
